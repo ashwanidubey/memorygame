@@ -1,0 +1,63 @@
+.Display
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Screen
+{
+    display: flex;
+     flex-wrap: wrap;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Card
+{
+      height: 150px;
+      width: 150px;
+     
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+     
+}
+.clickButton
+{
+    height: 100%;
+    width:100%;
+}
+.Cardinside1
+{
+    height: 150px;
+    width: 150px;
+    background-color:white;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-size: 90px;
+    border-radius: 20px;
+   
+}
+.Cardinside2
+{
+    height: 150px;
+    width: 150px;
+    background-color: cadetblue;
+    
+    display: flex;
+    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    border-radius: 20px;
+}
